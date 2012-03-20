@@ -1,0 +1,7 @@
+[user]
+	name = Shunsuke Mikami
+	email = shun0102@gmail.com
+[core]
+	editor = emacs
+[color]
+	ui = true
