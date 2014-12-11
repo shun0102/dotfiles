@@ -1,15 +1,5 @@
 #!/bin/sh
-cd $(dirname $0)
-for dotfile in .?*; do
-    case $dotfile in
-        *.elc)
-            continue;;
-        ..)
-            continue;;
-        .git)
-            continue;;
-        *)
-            ln -Fis "$PWD/$dotfile" $HOME
-            ;;
-    esac
-done
+
+ln -sf ${PWD}/.emacs.d/init.el ~/.emacs.d/init.el
+
+ln -sf ${PWD}/.zshrc ~/.zshrc
