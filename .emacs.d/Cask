@@ -1,0 +1,14 @@
+(source gnu)
+(source melpa)
+(source marmalade)
+
+(depends-on "elscreen")
+(depends-on "pbcopy")
+
+;; prog modes
+(depends-on "js2-mode")
+(depends-on "json-mode")
+(depends-on "ruby-mode")
+(depends-on "rinari")
+
+(depends-on "web-mode")
